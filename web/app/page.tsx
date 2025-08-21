@@ -161,7 +161,7 @@ export default function AISecurityAgent() {
 
                     <Button
                       variant="outline"
-                      onClick={() => window.open("https://github.com/perlakay/rAPId", "_blank")}
+                      onClick={() => window.open("https://github.com/kamitabh24", "_blank")}
                       className="px-8 py-4 border-gray-600 text-gray-300 hover:bg-gray-800 hover:border-gray-500 rounded-lg flex-1 max-w-48"
                     >
                       View on GitHub
@@ -324,11 +324,11 @@ export default function AISecurityAgent() {
             </CardHeader>
             <CardContent className="space-y-6 pt-8">
               <div className="relative p-6 bg-black/60 border border-green-500/10 rounded-xl">
-                <code className="text-green-400 text-base pr-12">git clone https://github.com/perlakay/rAPId.git</code>
+                <code className="text-green-400 text-base pr-12">git clone https://github.com/kamitabh24/RapidScan</code>
                 <Button
                   variant="ghost"
                   size="sm"
-                  onClick={() => copyToClipboard("git clone https://github.com/perlakay/rAPId.git", "git-clone")}
+                  onClick={() => copyToClipboard("git clone https://github.com/kamitabh24/RapidScan", "git-clone")}
                   className="absolute top-4 right-4 h-8 w-8 p-0 text-gray-400 hover:text-green-400 hover:bg-green-500/10"
                 >
                   {copiedStates["git-clone"] ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}
@@ -338,7 +338,7 @@ export default function AISecurityAgent() {
               <div className="flex gap-3">
                 <Button
                   variant="outline"
-                  onClick={() => window.open("https://github.com/perlakay/rAPId.git", "_blank")}
+                  onClick={() => window.open("https://github.com/kamitabh24/RapidScan", "_blank")}
                   className="flex-1 border-green-500/20 text-green-400 hover:bg-green-500/10 bg-transparent hover:border-green-500/40 rounded-xl px-6 py-3"
                 >
                   <Github className="mr-2 h-5 w-5" />
